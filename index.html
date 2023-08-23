@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+    <!--
+      <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+    -->
+    
+    <link href="css/ress.css" rel="stylesheet">
+    <link href="css/top.css" rel="stylesheet">
+    <title>魔法陣テスト</title>
+</head>
+<body>
+  <div id="movie">
+    <video src="video/魔法陣2.mp4" width="600px" height="600"></video>
+  </div>
+
+  <div class="container">
+    <video class="input_video" style="-webkit-transform: scaleX(-1);"></video>
+    <canvas class="output_canvas" width="768px" height="432px" ></canvas>
+    <script src="js/top.js"></script>
+  </div>
+
+  <script>
+
+  </script>
+</body>
+</html>
